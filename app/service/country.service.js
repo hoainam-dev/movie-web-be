@@ -1,4 +1,5 @@
 // Import models and database connection
+const { Op } = require('sequelize');
 const db = require('../models/index');
 
 module.exports = {
